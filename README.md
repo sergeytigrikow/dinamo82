@@ -12,7 +12,7 @@ LoadView allows to load test Websites, Web Application, and API with thousands o
 2. In LoadView, create your LoadView UID under **Account > Integrations > Add Integration > Stress Testing Web API**. Copy the integration UID.
 ![Integratio UID](docs/images/integration.png)
 3. Login to your Jenkins account.
-4. In Jenkins, go to **Credentials > Add Credentials > LoadView Security Token (UID).**
+4. In Jenkins, go to **Credentials > Add Credentials > LoadView Security Token (UID)**.
 5. Configure and validate the credentials:
 	* **Scope:** select **Global**.
 	* **ID:** leave default or specify a unique ID.
@@ -26,7 +26,6 @@ LoadView allows to load test Websites, Web Application, and API with thousands o
 	* **Scenario ID:** paste the stress test scenario ID you want to use in the build. Copy the ID from the scenario page in LoadView.
 	* **Error Threshold:** specify an acceptable percentage of sessions with errors that occurred while testing (failed to access the target resource, no keywords/image found, etc.). If the percentage of error sessions is greater than the specified value, the build will be marked as a *failure* in Jenkins.
 	* **Average Time:** specify a limit for an average response time measured while test execution. If the limit is reached, the build will be marked as a *failure* in Jenkins.
-
 ![Action](docs/images/action.png)
 9. Click **Save**.
 ## View Test Results
