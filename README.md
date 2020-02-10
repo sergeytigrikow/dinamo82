@@ -8,7 +8,14 @@ LoadView allows to load test Websites, Web Application, and API with thousands o
 * Load injector servers from 18 zones around the world including the United States, Canada, South America, Europe, and APAC.
 * Whitelisting of Fixed IPs 
 ## Install Plugin
+1. Login to the Dotcom-Monitor LoadView account.
+2. In LoadView, create your LoadView UID under Account > Integrations > Add Integration > Stress Testing Web API. Copy the integration UID.
 ![GitHub Logo](docs/images/integration.png)
+3. Login to your Jenkins account.
+4. In Jenkins, go to Credentials > Add Credentials > LoadView Security Token (UID).
+5. Configure and validate the credentials:
+
+
 
 
 
