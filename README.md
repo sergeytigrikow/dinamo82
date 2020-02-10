@@ -7,6 +7,9 @@ LoadView allows to load test Websites, Web Application, and API with thousands o
 * Supports RESTful APIs, such as JSON and XML, as well as SOAP and Web APIs that require authentication or multi-step execution.
 * Load injector servers from 18 zones around the world including the United States, Canada, South America, Europe, and APAC.
 * Whitelisting of Fixed IPs 
+## Install Plugin
+![GitHub Logo](docs/images/integration.png)
+
 
 
 
