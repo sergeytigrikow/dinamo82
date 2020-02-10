@@ -18,7 +18,6 @@ LoadView allows to load test Websites, Web Application, and API with thousands o
 	* ID: leave default or specify a unique ID.
 	* Description: specify a unique description to distinguish the credentials.
 	* UID: paste LoadView UID.
-
 ![Credentials](docs/images/credentials.png)
 6. In Jenkins, select a job and click Configure.
 7. Go to Build > Post-build Actions > Add post-build action > LoadView-Run load test scenario.
