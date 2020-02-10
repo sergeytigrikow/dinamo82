@@ -10,10 +10,15 @@ LoadView allows to load test Websites, Web Application, and API with thousands o
 ## Install Plugin
 1. Login to the Dotcom-Monitor LoadView account.
 2. In LoadView, create your LoadView UID under Account > Integrations > Add Integration > Stress Testing Web API. Copy the integration UID.
-![GitHub Logo](docs/images/integration.png)
+![Integratio UID](docs/images/integration.png)
 3. Login to your Jenkins account.
 4. In Jenkins, go to Credentials > Add Credentials > LoadView Security Token (UID).
 5. Configure and validate the credentials:
+	* Scope: select Global.
+	* ID: leave default or specify a unique ID.
+	* Description: specify a unique description to distinguish the credentials.
+	* UID: paste LoadView UID.
+![Credentials](docs/images/credentials.png)
 
 
 
