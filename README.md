@@ -1,7 +1,5 @@
-# LoadView Stress Testing Plugin by Dotcom-Monitor
-## Summary
-[LoadView](https://www.loadview-testing.com/) allows to load test Websites, Web Application, and API with thousands of concurrent users using basic HTTP protocol or Full Real Browsers from a managed cloud. Such testing verifies that there we no performance degradations between builds and code changes and that your application can handle concurrent load. Plugin allows you to setup load test as a Jenkins build Action.
-
+# Lorem Ipsum
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 
