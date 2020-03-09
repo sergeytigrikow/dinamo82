@@ -1,3 +1,0 @@
-bra 1
-bra 2
-bra 3
