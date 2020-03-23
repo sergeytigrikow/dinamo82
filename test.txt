@@ -2,6 +2,4 @@ A
 B
 C
 D
-bra data 1
-bra data 2
-bra data 3
+test bra data
