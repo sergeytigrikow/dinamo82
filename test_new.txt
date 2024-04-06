@@ -1,2 +1,2 @@
 Preparation for testing
-line for branch dev_test
+line for the new branch dev_test
