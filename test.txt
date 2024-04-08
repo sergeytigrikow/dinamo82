@@ -2,3 +2,5 @@
 2. data
 3. Information for commit
 4. Information for Dev_1
+5. line for hotfix #12
+
