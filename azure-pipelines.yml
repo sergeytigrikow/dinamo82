@@ -11,3 +11,9 @@ steps:
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
+
+- task: InvokeRESTAPI@1
+  inputs:
+    connectionType: 'http://postman-echo.com'
+    method: 'POST'
+    waitForCompletion: 'true'
