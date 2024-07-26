@@ -1,4 +1,6 @@
 # Starter pipeline
+pool:
+  name: Default
 
 steps:
 - script: echo Hello, world!
