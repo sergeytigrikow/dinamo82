@@ -5,11 +5,12 @@ stages:
   displayName: 'Prepare'
 
   jobs:
-  - job: 'BuildPipelineNetFrameworkYaml'
+  - job: 'First_Job'
     displayName: 'Build pipeline NetFramework Yaml'
     pool:
       name: Default
     steps:
+    - script: echo Hello, world!
     - task: ArchiveFiles@2
       inputs:
         rootFolderOrFile: '$(Build.BinariesDirectory)'
