@@ -1,19 +1,20 @@
 # Starter pipeline
-pool:
-  name: Default
 
-steps:
-- script: echo Hello, world!
-- task: ArchiveFiles@2
-  inputs:
-    rootFolderOrFile: '$(Build.BinariesDirectory)'
-    includeRootFolder: true
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-    replaceExistingArchive: true
+stages:
+- stage: 'Prepare'
+  displayName: 'Prepare'
 
-- task: InvokeRESTAPI@1
-  inputs:
-    connectionType: 'http://postman-echo.com'
-    method: 'POST'
-    waitForCompletion: 'true'
+  jobs:
+  - job: 'BuildPipelineNetFrameworkYaml'
+    displayName: 'Build pipeline NetFramework Yaml'
+    pool:
+      name: Default
+    steps:
+    - task: ArchiveFiles@2
+      inputs:
+        rootFolderOrFile: '$(Build.BinariesDirectory)'
+        includeRootFolder: true
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+        replaceExistingArchive: true
+
