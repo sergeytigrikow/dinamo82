@@ -18,4 +18,11 @@ stages:
         archiveType: 'zip'
         archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
         replaceExistingArchive: true
-
+    
+  - job: 'Second_Job'
+    displayName: 'Second_Job Build pipeline NetFramework Yaml'
+    pool:
+      name: Default
+    steps:
+    - script: echo Hello, world!
+  
