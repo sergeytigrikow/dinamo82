@@ -6,7 +6,7 @@ stages:
 
   jobs:
   - job: 'First_Job'
-    displayName: 'Build pipeline NetFramework Yaml'
+    displayName: 'First_Job Diplay_Name'
     pool:
       name: Default
     steps:
@@ -20,7 +20,7 @@ stages:
         replaceExistingArchive: true
     
   - job: 'Second_Job'
-    displayName: 'Second_Job Build pipeline NetFramework Yaml'
+    displayName: 'Second_Job Diplay_Name'
     pool:
       name: Default
     steps:
