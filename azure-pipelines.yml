@@ -1,8 +1,8 @@
 # Starter pipeline
 
 stages:
-- stage: 'Prepare'
-  displayName: 'Prepare'
+- stage: 'YAML_For_Testing'
+  displayName: 'Testing'
 
   jobs:
   - job: 'First_Job'
