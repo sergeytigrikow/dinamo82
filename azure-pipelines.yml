@@ -21,8 +21,11 @@ stages:
     
   - job: 'Second_Job'
     displayName: 'Second_Job Diplay_Name'
-    pool:
-      name: Default
+    pool: server
     steps:
-    - script: echo Hello, world! Second_Job
+    - task: InvokeRESTAPI@1
+      inputs:
+        connectionType: 'connectedServiceName'
+        method: 'POST'
+        waitForCompletion: 'false'
   
