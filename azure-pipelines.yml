@@ -5,20 +5,6 @@ stages:
   displayName: 'Testing'
 
   jobs:
-  - job: 'First_Job'
-    displayName: 'First_Job Diplay_Name'
-    pool:
-      name: Default
-    steps:
-    - script: echo Hello, world! First_Job
-    - task: ArchiveFiles@2
-      inputs:
-        rootFolderOrFile: '$(Build.BinariesDirectory)'
-        includeRootFolder: true
-        archiveType: 'zip'
-        archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-        replaceExistingArchive: true
-    
   - job: 'Second_Job'
     displayName: 'Second_Job Diplay_Name'
     pool: server
