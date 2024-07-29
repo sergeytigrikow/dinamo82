@@ -14,6 +14,7 @@ stages:
 
   - job: 'Second_Job'
     displayName: 'Second_Job Diplay_Name'
+    dependsOn: 'First_Job'
     pool: server
     steps:
     - task: InvokeRESTAPI@1
