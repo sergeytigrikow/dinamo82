@@ -14,4 +14,4 @@ stages:
         connectionType: 'connectedServiceName'
         serviceConnection: 'ExampleGeneric'
         method: 'GET'
-        waitForCompletion: 'true'
+        waitForCompletion: 'false'
