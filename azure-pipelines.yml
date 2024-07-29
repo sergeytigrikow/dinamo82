@@ -5,6 +5,13 @@ stages:
   displayName: 'Testing'
 
   jobs:
+  - job: 'First_Job'
+    displayName: 'First_Job Diplay_Name'
+    pool:
+      name: Default
+    steps:
+    - script: echo Hello, world! First_Job
+
   - job: 'Second_Job'
     displayName: 'Second_Job Diplay_Name'
     pool: server
