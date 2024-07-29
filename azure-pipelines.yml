@@ -11,6 +11,6 @@ stages:
     steps:
     - task: InvokeRESTAPI@1
       inputs:
-        connectionType: 'ExampleGeneric'
+        connectionType: 'connectedServiceNameSelector'
         method: 'GET'
         waitForCompletion: 'true'
